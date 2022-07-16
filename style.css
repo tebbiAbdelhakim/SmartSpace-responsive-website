@@ -892,6 +892,21 @@
                 font-size: 14px;
                 display: none;
             }
+                .hero .txt {
+                z-index: 1;
+            }
+            nav .myClass {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 800px;
+                background-color: #ffffff;
+                align-items: center;
+                justify-content: space-around;
+                position: absolute;
+                top: -30px;
+                left: 0;
+            }
             /* .list ul {
         overflow-x: scroll;
     } */
@@ -965,24 +980,7 @@
                 left: 5%;
                 right: 5%;
             }
-            .hero .txt {
-                z-index: -1;
-            }
-            .first {
-                display: none;
-            }
-            nav .myClass {
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-                height: 800px;
-                background-color: #ffffff;
-                align-items: center;
-                justify-content: space-around;
-                position: absolute;
-                top: -30px;
-                left: 0;
-            }
+            
         }
         
         nav a:hover {
